@@ -1,0 +1,66 @@
+.slider {
+    height: auto;
+    color: #fff;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url('../../images/nebula.jpg');
+}
+
+.slider h1 {
+    padding-top: 200px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    animation-delay: 1s;
+    font-weight: bold;
+}
+
+.slider p {
+    font-size: 20px;
+    padding: 20px;
+    animation-delay: 2s;
+    padding-bottom: 20px;
+    padding-inline-start: 200px;
+    padding-inline-end: 200px;
+}
+
+@media only screen and (max-width: 810px) {
+    .slider p {
+        padding-inline-start: 50px;
+        padding-inline-end: 50px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .slider h1 {
+        padding-top: 100px;
+    }
+}
+
+.btn-div {
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+.launch-btn {
+    font-size: 24px;
+    border-radius: 10%;
+    padding: 10px;
+    width: 200px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: transparent;
+    border: 4px solid blue;
+}
+
+.launch-btn:hover {
+    background: blue;
+}
+
+.launch-btn-link {
+    color: #fff !important;
+}
+
+.launch-btn-link:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,22 @@
+.nav-head {
+    height: auto;
+    width: 100%;
+    background-color: black !important;
+    border-bottom: 4px solid blue;
+}
+
+.navbar-collapse {
+    justify-content: flex-end !important;
+    padding-right: 50px;
+}
+
+.nav-linkl {
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav-linkl:hover {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}

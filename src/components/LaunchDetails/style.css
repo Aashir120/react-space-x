@@ -1,0 +1,21 @@
+.launchDetails {
+    background-color: black !important;
+}
+
+body {
+    background-color: black !important;
+}
+
+.card-launch {
+    padding: 50px;
+}
+
+.img-launch {
+    width: 500px;
+    height: 500px;
+    margin: 2%;
+    justify-content: space-between;
+    border-radius: 10%;
+    border: 2px solid blue;
+    align-items: 'center';
+}

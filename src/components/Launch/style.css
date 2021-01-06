@@ -1,0 +1,30 @@
+ol {
+    flex-direction: row;
+    display: inline-flex;
+}
+
+.Card {
+    display: flex;
+}
+
+.launch-view {
+    background-color: black;
+}
+
+.launch-content {
+    border: 4px solid blue !important;
+}
+
+.btn-launch {
+    margin-left: 0;
+    background-color: transparent;
+    color: blue !important;
+    border-radius: 10%;
+    margin-top: 10px;
+    border: 4px solid blue !important;
+}
+
+.btn-launch:hover {
+    color: #fff !important;
+    background-color: blue;
+}
